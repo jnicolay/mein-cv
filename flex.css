@@ -1,0 +1,37 @@
+body {
+    background: #f8f6ed;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #4184bf;
+    align-items: center;
+}
+
+.item {
+    background: rgb(113, 29, 29);
+    color: white;
+    font-size: 24px;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+
+/* weitere Optionen: 
+/* flex-direction: column; Spalte
+/* flex-direction: row; Reihe
+/* justify-content: center; mittig
+/* justify-content: space-around; gleichmäßiger Abstand oben, unten, links rechts
+/* justify-content: space-between; links und rechts verteilt
+/* justify-content: flex-end; unten rechts
+/* flex-wrap: wrap;
+*/
